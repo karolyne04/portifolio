@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        primary: '#FF1E56',
+        sec: '#323232',
+        ter: '#FFAC41',
+        backHabilities: '#ff1e56b3',
+      }
+      // backgroundImage: {
+      //     'hero-pattern': "url('/../public/imagem.png')",
+      //     // 'footer-texture': "url('/img/footer-texture.png')",
+      // },
     },
   },
   plugins: [],
