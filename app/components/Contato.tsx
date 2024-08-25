@@ -14,14 +14,14 @@ export default function Contato(props: ContatoProps) {
             <div className={`flex flex-col mx-auto w-2/4 `}>
                 <form className="flex flex-col mx-4 py-5 space-y-2">
                     <label>Nome</label>
-                    <input placeholder="Nome completo" className="border-2 h-10 rounded-lg border-primary"/>
+                    <input placeholder="Nome completo" className="border-2 h-10 rounded-lg border-primary p-2"/>
                     <label>Email</label>
-                    <input placeholder="E-mail para contato" type="email" className="border-2 h-10 rounded-lg border-primary"/>
+                    <input placeholder="E-mail para contato" type="email" className="border-2 h-10 rounded-lg border-primary p-2"/>
                     <label>Assunto</label>
-                    <input placeholder="Assunto do E-mail" className="border-2 h-10 rounded-lg border-primary"/>
+                    <input placeholder="Assunto do E-mail" className="border-2 h-10 rounded-lg border-primary p-2"/>
                     <label>Comentário</label>
-                    <textarea rows={3} placeholder="Digite sua mensagem..." className="border-2  rounded-lg border-primary" />
-                    <Botao titulo="Enviar" className="w-2/4 mt-3"></Botao>
+                    <textarea rows={3} placeholder="Digite sua mensagem..." className="border-2  rounded-lg border-primary p-2" />
+                    <Botao titulo="Enviar" className="w-2/4 mt-3"/>
                 </form>
             </div>
 

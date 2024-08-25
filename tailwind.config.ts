@@ -13,6 +13,10 @@ const config: Config = {
         sec: '#323232',
         ter: '#FFAC41',
         backHabilities: '#ff1e56b3',
+        five: '#355C7D',
+        seis: '#003C43',
+        
+        
       }
       // backgroundImage: {
       //     'hero-pattern': "url('/../public/imagem.png')",

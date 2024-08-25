@@ -6,6 +6,8 @@ import Sobre from "./components/Sobre";
 import Contato from "./components/Contato";
 import Projetos from "./components/Projetos";
 import Habilidades from "./components/Habilidades";
+import Card from "./components/Card";
+import Projeto from "./components/Projeto";
 
 
 export default function Home() {
@@ -17,7 +19,9 @@ export default function Home() {
           <Nav />
 
           <Sobre />
-          <Projetos/>
+          {/* <Card name="Gelato" imageUrl={ '/gelato.png'} link={'https://github.com/karolyne04/desafio-chakra'} className="w-full h-full"/> */}
+          
+          <Projeto/>
           <Habilidades/>
           <Contato className="flex items-center justify-center" />
       </main>
