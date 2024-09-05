@@ -23,7 +23,9 @@ export default function Habilidades() {
           <Circle className="bottom-full -top-56  left-1/4 w-24 h-24">Bootstrap</Circle>
           <Circle className="left-3/4 -top-96 bottom-full w-24 h-24">Native Base</Circle>
           <Circle className="w-32 h-32 bottom-96 -top-96 left-4/5 m-5">Stylecomponet</Circle>
-          <Circle className="w-20 h-20 bottom-96 left-2/4">Chakra UI</Circle>   
+          <Circle className="w-20 h-20 bottom-96 left-2/4">Chakra UI</Circle>  
+          <Circle className="bottom-96 left-3/4"> Expo</Circle> 
+          <Circle className="w-28 h-28 bottom-64 left-48">StyleSheet</Circle>
           
       </div>
   );

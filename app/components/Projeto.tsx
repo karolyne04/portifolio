@@ -1,4 +1,5 @@
 import Card from "./Card";
+import MobileCard from "./MobileCard";
 
 export default function Projeto() {
     return (
@@ -23,9 +24,16 @@ export default function Projeto() {
               imageUrl={'/social.png'} 
               link={'https://github.com/orgs/ifpi-picos/teams/grupo-09/repositories'} 
             />
-            <Card 
+            <MobileCard
               name="Apitech" 
               imageUrl={'/apitech.jpeg'} 
+              className=" h-96"
+            />
+           
+            <MobileCard
+              name="Smartflow"
+              imageUrl={'/smartflow.jpeg'} 
+            
             />
         </div>
     );
