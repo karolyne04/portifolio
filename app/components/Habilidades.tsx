@@ -12,15 +12,15 @@ export default function Habilidades() {
       <Circle className="top-24 left-48 sm:left-1/3 md:left-1/2">Figma</Circle>
       <Circle className="left-3 bottom-80 w-20 h-20 sm:bottom-72 sm:left-2 md:left-12">React.js</Circle>
       <Circle className="w-28 h-28 bottom-64 left-3/4 items-center justify-center sm:left-1/2">React Native</Circle>
-      <Circle className="bottom-96 left-44 w-28 h-28 sm:left-1/4">Tailwind CSS</Circle>
-      <Circle className="bottom-96 left-6 top-30 sm:top-20">Vercel</Circle>
-      <Circle className="bottom-96 left-2/4 w-20 h-20 sm:left-1/2">Next.js</Circle>
-      <Circle className="bottom-full -top-56 left-1/4 w-24 h-24 sm:left-1/3">Bootstrap</Circle>
-      <Circle className="left-3/4 -top-96 bottom-full w-24 h-24 sm:left-2/4">Native Base</Circle>
-      <Circle className="w-32 h-32 bottom-96 -top-96 left-4/5 m-5 sm:left-1/2">Styled-components</Circle>
-      <Circle className="w-20 h-20 bottom-96 left-2/4 sm:left-1/3">Chakra UI</Circle>
-      <Circle className="bottom-96 left-3/4 sm:left-1/2">Expo</Circle>
-      <Circle className="w-28 h-28 bottom-64 left-48 sm:left-1/4">StyleSheet</Circle>
+      <Circle className="bottom-96 left-44 w-28 h-28">Tailwind CSS</Circle>
+      <Circle className="bottom-96 left-6 top-30">Vercel</Circle>
+      <Circle className="bottom-96 left-3/4 w-20 h-20">Next.js</Circle>
+      <Circle className="bottom-full -top-56 left-1/4 w-24 h-24">Bootstrap</Circle>
+      <Circle className="left-3/4 -top-96 bottom-full w-24 h-24 ">Native Base</Circle>
+      <Circle className="w-40 h-40 bottom-96 -top-96 left-4/5 ">Styled-components</Circle>
+      <Circle className="w-20 h-20 bottom-96 left-2/4">Chakra UI</Circle>
+      <Circle className="bottom-96 left-3/4">Expo</Circle>
+      <Circle className="w-28 h-28 bottom-64 left-48">StyleSheet</Circle>
     </div>
   );
 }
