@@ -21,8 +21,8 @@ export default function Card({ imageUrl, name, link = "#", className }: CardProp
             className="object-cover"
           />
         </div>
-        <div className="px-6 py-4 bg-gray-100 h-22">
-          <div className="font-bold text-xl mb-2 text-primary">{name}</div>
+        <div className="px-6 py-4 bg-gray-100 h-22 justify-text">
+          <div className="font-bold text-xl mb-2 text-primary text-center">{name}</div>
           {/* Caso queira remover o texto de link */}
           {/* {link ? (
             <span className="text-blue-500 hover:underline">

@@ -66,6 +66,16 @@ export default function Projeto() {
                           name="Smartflow"
                           imageUrl={'/smartflow.jpeg'} 
                         />
+                        <MobileCard
+                          name='Contatos'
+                          imageUrl={'/contato.jpeg'}
+                          link={'https://github.com/karolyne04/desafio-mobile'}
+                          />
+                        <MobileCard
+                          name='Lista de compras'
+                          imageUrl={'/lista.jpeg'}
+                          link={'https://github.com/karolyne04/app-lista'}
+                        />
                     </>
                 ) : null}
             </div>
