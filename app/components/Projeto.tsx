@@ -52,6 +52,16 @@ export default function Projeto() {
                           imageUrl={'/social.png'} 
                           link={'https://github.com/orgs/ifpi-picos/teams/grupo-09/repositories'} 
                         />
+                        <Card
+                          name='Crud'
+                         imageUrl={'/crud.png'}
+                        link={'https://github.com/karolyne04/desafio-fullstack'}
+                        />
+                        <Card
+                          name='Netflix'
+                          imageUrl={'/nextflix.png'}
+                          link={'https://github.com/karolyne04/navegacao-filme'}
+                        />
                     </>
                 ) : null}
 
